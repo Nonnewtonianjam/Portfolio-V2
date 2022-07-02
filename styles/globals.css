@@ -1,0 +1,59 @@
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.dot {
+    color:black;
+}
+
+
+.active.dot {
+    color: #788eed;
+}
+
+
+.underlineHover:hover span:last-child {
+    width: 100%;
+}
+
+.topShadow {
+    box-shadow: 0 -5px 10px -5px #333;
+}
+
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: #F4F4F9;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: .3em;
+    border-radius: 100vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0000004e;
+}
+
+.button {
+    @apply border-2 border-black dark:border-white md:text-xl font-bold py-2 px-8 rounded-full hover:bg-black hover:text-lightPurple dark:hover:bg-white dark:hover:text-black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Spectral:ital,wght@0,400;0,600;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
