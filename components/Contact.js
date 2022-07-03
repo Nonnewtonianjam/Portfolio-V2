@@ -10,7 +10,7 @@ function Contact() {
             <div className='z-20 row-start-1 md:row-start-2 col-start-2 md:col-start-3 lg:col-start-2 text-6xl md:text-7xl font-monsterrat font-bold pt-5'>
               Where To Reach Me?
             </div>
-            <div className='row-start-3 col-start-2 col-span-10 text-center font-monsterrat md:text-xl md:row-start-4 lg:col-start-4 lg:col-span-6'>
+            <div className='row-start-3 col-start-2 col-span-10 text-center font-spectral md:text-xl md:row-start-4 lg:col-start-4 lg:col-span-6'>
               I am currently looking for new opportunities. If you think I would be a good fit for your project, feel free to contact me via <span className='underline underline-offset-1'>E-mail</span> or <span className='underline underline-offset-1'>LinkedIn</span>.
             </div>
             <div className='relative row-start-4 md:row-start-5  flex row-span-1 col-start-5 md:border-b-2 border-zinc-900 dark:border-white col-span-4 justify-between'>
