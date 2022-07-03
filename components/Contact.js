@@ -7,7 +7,7 @@ function Contact() {
     
     <Section id="contact" className='bg-gradient-to-t from-purple to-lightPurple dark:to-black'>
          
-            <div className='z-20 row-start-1 md:row-start-2 col-start-2 md:col-start-3 text-6xl md:text-7xl font-monsterrat font-bold pt-5'>
+            <div className='z-20 row-start-1 md:row-start-2 col-start-2 md:col-start-3 lg:col-start-2 xl:col-start-3 text-6xl md:text-7xl font-monsterrat font-bold pt-5'>
               Where To Reach Me?
             </div>
             <div className='row-start-3 col-start-2 col-span-10 text-center font-monsterrat md:text-xl md:row-start-4 lg:col-start-4 lg:col-span-6'>
