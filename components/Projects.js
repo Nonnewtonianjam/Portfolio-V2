@@ -44,7 +44,7 @@ function Projects() {
 
                         <div className='relative font-spectral col-start-2 xl:col-start-3 col-span-10 row-start-4 md:row-start-5 xl:col-span-8 text-center mt-4'>
                                 <span className='italic font-spectral'>{item.tags}</span>
-                                <p className='text-xl mt-4'>{item.excerpt}</p>
+                                <p className='md:text-xl mt-4'>{item.excerpt}</p>
                                 <div className='absolute text-sm font-monsterrat right-0 my-4 py-2 px-8'>
                                         <button className='button' 
                                                 onClick={() => expandModal(

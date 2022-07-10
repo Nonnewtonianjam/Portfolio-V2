@@ -13,10 +13,9 @@ const Data = [
         id: uuidv4(),
         name: 'OnDeck',
         excerpt:
-        `This application was developed to assist user's in finding live music performances. The user 
-        selects their desired parameters, and is presented with a list of recommendations along a score 
-        for how likely it it that they will enjoy the event. The user is then able to generate playlists 
-        and see ticket availability for the artist of their choice.`,
+        `Application to assist user's in finding live musical performances. The user 
+        selects their desired parameters, and is presented with a list of recommendations along with a score 
+        for how likely it is that they will enjoy the event.`,
         desc: 
         `The goal of this project was to make the app feel like a natural extension of the spotify experience. 
         I created the wireframe around the idea that the information would be displayed in the same fashion as 
@@ -78,8 +77,8 @@ const Data = [
     },
     {
         id: uuidv4(),
-        name: 'Clothing E-Commerce Experience',
-        excerpt:'Application for clothing brand e-commerce app with a focus on finding clothing compatible with a user\'s personal style.',
+        name: 'Apparel Application',
+        excerpt:'App with a focus on finding clothing compatible with a user\'s personal style.',
         desc:
         `The goal of this project was to attempt to make fashion more accessible for users by creating a system that 
         assists them in clothing coordination while also increasing theoretical conversion rates in the process. The 

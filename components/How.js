@@ -6,10 +6,12 @@ import { SlideData } from './SlideData'
 const How = () => {
     return (
         <Section id="skills" className='bg-lightPurple dark:bg-black'>
-        <div className='z-20 row-start-1 col-span-full text-center'>
-            <h2 className=' font-bold font-monsterrat xs:text-7xl text-8xl md:text-9xl'>How <span className=' italic font-spectral'>It&#39;s</span> Done</h2>
+        <div className='z-0 row-start-1 row-span-2 col-span-full text-center my-auto'>
+            <h2 className=' font-bold font-monsterrat xs:text-6xl text-7xl md:text-9xl'>How <span className=' italic font-spectral'>It&#39;s</span> Done</h2>
         </div> 
-            <Carousel slides={SlideData}/>  
+        
+            <Carousel slides={SlideData}/>
+        
         </Section>
     )
 }

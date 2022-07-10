@@ -83,7 +83,7 @@ const Carousel = ({slides}) => {
         <div className='flex lg:hidden absolute justify-center bottom-0 left-0 right-0 text-7xl m-5'>
             {SlideData.map((slide, index) => (
                 <div key={index}
-                     className={`${index === current ? 'active dot' : 'dot'}`}
+                     className={`${index === current ? 'text-white dark:text-slate-800' : 'text-black dark:text-white'}`}
                      onClick={() => dotControl(index)}
                      >.</div>
             ))}
